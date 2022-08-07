@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Live Matches | By AdY </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h5 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('messi.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>SportsLive</p>
+  </div>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">Live Matches</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">Upcoming</button></p>
+  </div>
+  <div class="w3-display-bottomleft w3-container">
+    <p>About me -</p>
+    <p class="w3-xlarge">Messi Fan Boy and Culers :)</p>
+    <p class="w3-large">Feel free to browse and watch live Matches</p>
+    <p>Design by <a href="https://www.instagram.com/_ady14_" target="_blank">Adnan Shaikh</a></p>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Barcelona vs Pumas (11:30 pm)</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Link 1 - <a href="">TV1</a></h5>
+      <h5>Link 2 - <a href="">TV2</a></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Man City vs West Ham (9:00 pm)</h1>
+    </div>
+    <div class="w3-container">
+        <h5>Link 1 - <a href="">TV1</a></h5>
+        <h5>Link 2 - <a href="">TV2</a></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Man United vs Brighton (6:30 pm)</h1>
+    </div>
+    <div class="w3-container">
+        <h5>Link 1 - <a href="">TV1</a></h5>
+        <h5>Link 2 - <a href="">TV2</a></h5>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Upcoming Matches</h1>
+    </div>
+    <div class="w3-container">
+      <p>Some Of The Upcoming Matches Schedules :</p>
+      <div class="w3-container w3-black">
+        <h1>13th August 2022 -</h1>
+      </div>
+      <p></p>
+      <b>Man City vs Bournemouth (7:30 pm)</b>
+      <p></p>
+      <div class="w3-container w3-black">
+        <h1>14th August 2022 -</h1>
+      </div>
+      <p></p>
+      <b>PSG vs Montipeller (12:30 am)</b> <br>
+      <b>Barcelona vs Rayo Vallecano (12:30 am)</b>
+      <p></p>
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
