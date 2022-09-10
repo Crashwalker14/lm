@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>SportsLive | Watch Live Matches</title>
+<title>Live Matches | By AdY </title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
+body,h1,h5 {font-family: "Raleway", sans-serif}
 body, html {height: 100%}
 .bgimg {
-  background-image: url('as.jpg');
+  background-image: url('messi.jpg');
   min-height: 100%;
   background-position: center;
   background-size: cover;
@@ -19,19 +19,60 @@ body, html {height: 100%}
 </head>
 <body>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    SportsLive
+<div class="bgimg w3-display-container w3-text-white">
+  <div class="w3-display-middle w3-jumbo">
+    <p>SportsLive</p>
   </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">Service Will Resume After Champions League</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center">Thank You</p>
+  <div class="w3-display-topleft w3-container w3-xlarge">
+    <p><button onclick="document.getElementById('menu').style.display='block'" class="w3-button w3-black">Live Matches</button></p>
+    <p><button onclick="document.getElementById('contact').style.display='block'" class="w3-button w3-black">Upcoming</button></p>
   </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    Powered by <a href="" target="_blank">Ady</a>
+  <div class="w3-display-bottomleft w3-container">
+    <p>About me -</p>
+    <p class="w3-xlarge">Messi Fan Boy and Culers :)</p>
+    <p class="w3-large">Feel free to browse and watch live Matches</p>
+    <p>Design by <a href="https://www.instagram.com/_ady14_" target="_blank">Adnan Shaikh</a></p>
+  </div>
+</div>
+
+<!-- Menu Modal -->
+<div id="menu" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Barcelona vs Cadiz (10:00 pm)</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Link 1 - <a href="">TV1 (Mobile)</a></h5>
+      <h5>Link 2 - <a href="">TV2 (Mobile/PC)</a></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>PSG vs Brest (08:30 pm)</h1>
+    </div>
+    <div class="w3-container">
+        <h5>Link 1 - <a href="">TV1 (Mobile)</a></h5>
+        <h5>Link 2 - <a href="">TV2 (Mobile/PC)</a></h5>
+    </div>
+
+    <div class="w3-container w3-black">
+         <p><u>Note -</u>The link will Work after 5 minutes into the match. <br> If it's Still not working , wait for some time and try again</p>
+    </div>
+  </div>
+</div>
+
+<!-- Contact Modal -->
+<div id="contact" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black">
+      <span onclick="document.getElementById('contact').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Upcoming Matches</h1>
+    </div>
+    
+      
+    </div>
   </div>
 </div>
 
 </body>
 </html>
+
